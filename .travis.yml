@@ -10,3 +10,4 @@ cache:
 notifications:
   slack:
     on_failure: always
+    on_success: never
