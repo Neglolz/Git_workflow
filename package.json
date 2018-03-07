@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Neglolz/jrbresgi/issues"
   },
-  "homepage": "https://github.com/Neglolz/jrbresgi#readme"
+  "homepage": "https://github.com/Neglolz/jrbresgi#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.1"
+  }
 }
