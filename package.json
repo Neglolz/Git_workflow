@@ -1,0 +1,19 @@
+{
+  "name": "jrbresgi",
+  "version": "1.0.0",
+  "description": "simple nodejs app ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neglolz/jrbresgi.git"
+  },
+  "author": "jrbr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neglolz/jrbresgi/issues"
+  },
+  "homepage": "https://github.com/Neglolz/jrbresgi#readme"
+}
