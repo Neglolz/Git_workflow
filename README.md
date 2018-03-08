@@ -1,5 +1,7 @@
 # Git_Workflow
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/47433a3f672646eca23b9fad967e3627)](https://app.codacy.com/app/Neglolz/Git_workflow?utm_source=github.com&utm_medium=referral&utm_content=Neglolz/Git_workflow&utm_campaign=badger)
+
 Trying to put up a git workflow
 
 ## Getting Started
