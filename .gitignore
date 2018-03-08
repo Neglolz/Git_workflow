@@ -1,5 +1,5 @@
-#editor
-.idea
+#build
+dist/
 
 # Logs
 logs
