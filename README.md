@@ -8,10 +8,22 @@ This app only show one page. That's not much.
 
 ### Prerequisites
 
-Npm
+Npm 3.8.9
 
+Nodejs 
+
+
+#### Linux
 ```
-Give examples
+apt-get install npm@3.8.9
+sudo npm  install jscodesniffer -g
+node /location/to/the/file/jscs.js fileToWatch.js --standard=Jquery --report-full
+```
+#### OSX
+```
+brew install npm@3.8.9
+sudo npm  install jscodesniffer -g
+node /location/to/the/file/jscs.js fileToWatch.js --standard=Jquery --report-full
 ```
 
 ### Installing
@@ -47,9 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+
 
 <a href="https://snyk.io/test/github/neglolz/git_workflow?targetFile=package.json"><img src="https://snyk.io/test/github/neglolz/git_workflow/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/neglolz/git_workflow?targetFile=package.json" style="max-width:100%;"></a>
 
