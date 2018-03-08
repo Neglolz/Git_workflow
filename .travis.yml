@@ -2,17 +2,15 @@ language: node_js
 node_js:
   - "7"
 before_install:
-  - npm i -g npm@3.8.9
   - npm  install jscodesniffer -g
 cache:
   directories:
     - "node_modules"
+script:
+   - npm i
+   - node /usr/local/lib/node_modules/jscodesniffer/jscs.js app.js --standard=Jquery --report-full
+   - npm run dev
 notifications:
   email:
     on_failure: always
     on_success: never
-
-scripts:
-   - npm i
-   - node /usr/local/lib/node_modules/jscodesniffer/jscs.js app.js --standard=Jquery --report-full
-   - npm run dev
