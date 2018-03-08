@@ -1,6 +1,9 @@
 #build
 dist/
 
+#editor
+.idea/
+
 # Logs
 logs
 *.log
