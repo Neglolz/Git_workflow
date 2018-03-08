@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "7"
 before_install:
-  - npm  install jscodesniffer -g
+  - sudo npm install jscodesniffer -g
 cache:
   directories:
     - "node_modules"
@@ -14,3 +14,4 @@ notifications:
   email:
     on_failure: always
     on_success: never
+
