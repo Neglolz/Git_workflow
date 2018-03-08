@@ -63,3 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 <a href="https://snyk.io/test/github/neglolz/git_workflow?targetFile=package.json"><img src="https://snyk.io/test/github/neglolz/git_workflow/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/neglolz/git_workflow?targetFile=package.json" style="max-width:100%;"></a>
 
+<img src="https://travis-ci.org/Neglolz/Git_workflow.svg?branch=master" alt="travis build status"/>
