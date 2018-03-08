@@ -3,7 +3,8 @@ node_js:
   - "iojs"
   - "7"
 before_install:
-  - npm i -g npm@3.8.9
+  - npm i
+  - npm run dev
 cache:
   directories:
     - "node_modules"
