@@ -15,5 +15,6 @@ notifications:
     on_success: never
 deploy:
   provider: heroku
+  app: gitworkflowesgi
   api_key:
     secure: 9ef3e6d2-0d6a-4e01-8d5f-bc64204d3f52
