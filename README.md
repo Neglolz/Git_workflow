@@ -1,5 +1,9 @@
 # Git_Workflow
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/47433a3f672646eca23b9fad967e3627)](https://app.codacy.com/app/Neglolz/Git_workflow?utm_source=github.com&utm_medium=referral&utm_content=Neglolz/Git_workflow&utm_campaign=badger)
+<a href="https://snyk.io/test/github/neglolz/git_workflow?targetFile=package.json"><img src="https://snyk.io/test/github/neglolz/git_workflow/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/neglolz/git_workflow?targetFile=package.json" style="max-width:100%;"></a>
+<img src="https://travis-ci.org/Neglolz/Git_workflow.svg?branch=master" alt="travis build status"/>
+
 Trying to put up a git workflow
 
 ## Getting Started
@@ -59,7 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-
-
-<a href="https://snyk.io/test/github/neglolz/git_workflow?targetFile=package.json"><img src="https://snyk.io/test/github/neglolz/git_workflow/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/neglolz/git_workflow?targetFile=package.json" style="max-width:100%;"></a>
 
