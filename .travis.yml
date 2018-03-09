@@ -8,6 +8,7 @@ cache:
   - node_modules
 script:
 - node node_modules/jscodesniffer/jscs.js app.js --standard=Jquery --report-full
+- npm run dev &
 notifications:
   email:
     on_failure: always
