@@ -1,16 +1,19 @@
 language: node_js
 node_js:
-  - "7"
-#before_install:
-#  - npm install jscodesniffer
+- '7'
+before_install:
+- npm install jscodesniffer
 cache:
   directories:
-    - "node_modules"
+  - node_modules
 script:
-   - node node_modules/jscodesniffer/jscs.js app.js --standard=Jquery --report-full
-   - npm run dev
+- node node_modules/jscodesniffer/jscs.js app.js --standard=Jquery --report-full
+- npm run dev
 notifications:
   email:
     on_failure: always
     on_success: never
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: wnw+ql/uxXAONBUSlA3s2yWiUwljsFDdVgGfXwRCjZVOa+R8CgPLcaEfWplzoWk4c1piA9ffYlaLXeVmtIR67SRL9mpbQ354/RTiGjZFCeW+BVnbOtSm2jwQpRmeWR6Bns7WPJ/2nJxjNvQZJu97CpDbME+4HiP7/tSZNn74fUucm9KZ8+L5nTDaZgms/y1gZT27CoYlrydjdoa3sAFI9MzcTEWkdLRbl49KHBlOJaQ7/RItscttr8oQoGzzRGULam8Dyu/4AynD9I4OWsOorothgfl2zVs2muFhoDAWecfg2uPXJ/940seA04ELW039b9PxTaHa+NhUaHnKQmlRLLmaIx28kkTx52LYHvso4efZ4VDNz7btR5SZyrekNdhNIQNj6bgVyWYSNQB8kmt3phfDFg+htH9YY+ja6DYWizD00wc5tiq4HMaLnjvQAgjFNhk/CklZpSQbLYUmlCgnjyaxLP9uve+vWSMHe1Mnmdj9tHfOI/COnQp1j6KFX3x/Qb3TtPGrGIxaxmzuMtUJrQvyDHM8Y6gdDVJhltnC/EfDyEcNqXJxomlqfmLe8gNTH+lRmwe5wM8Wg0RKfa0QFZcdarU/LcFUgZdQ7BJgKEllG9lvVe+c2gBap+hmbhjj9D7NjrzdLLtIQeVxyCQzvB85rIPLXP8bFs3go25nbGU=
